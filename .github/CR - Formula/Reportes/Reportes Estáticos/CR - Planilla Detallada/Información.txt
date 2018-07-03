@@ -1,0 +1,37 @@
+- Reporte de Planilla
+	- Módulo: Salarios
+	- Nombre: Planilla Detallada
+	- Formato: Excel
+	- Parámetros:
+		- Compañía (No Visible)
+		- Tipo de planilla: Tipo de planilla a visualizar
+		- Planilla: Código de la planilla a visualizar
+		- Usuario (No Visible)
+	- Campos:
+		- Nombre de compañía
+		- Dirección de la compañía
+		- Distrito, Canton y Provincia (Departamento, Municipio y Lugar)
+		- Teléfono
+		- Código del empleado
+		- Apellidos y nombres del empleado
+		- Idenitificación: Cédula del empleado o Pasaporto u otra identificación
+		- Cuenta contable Centro de costo
+		- Centro de costo: Nombre del centro de costo
+		- Código de la plaza del empleado
+		- Plaza: Nombre de la plaza
+		- Código de la unidad del empleado 
+		- Ubicación: Nombre de la unidad del empleado 
+		- Código visual del tipo de planilla
+		- Tipo planilla: Nombre del tipo de planilla
+		- Código del departamento: ¿A que se refiere este campo?
+		- Departamento: Eliminar
+		- Salario Referencia: Eliminar
+		- Para cada uno de los ingresos ordenados por el orden del tipo de ingreso se deben colocar las siguientes columnas:
+			- Monto: Valor recibido del tipo de ingreso
+			- Cantidad: Días o horas por el tipo de ingreso
+		- Total beneficioes: Total de los ingresos
+		- Para cada uno de los descuentos ordenados por el orden del tipo de descuento se deben colocar las siguientes columnas:
+			- Monto: Valor recibido del tipo de descuento
+			- Cantidad: Días o horas por el tipo de descuento
+		- Total deducciones: Total de las deducciones
+		- Neto: Neto a pagar en la planilla

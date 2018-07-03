@@ -1,0 +1,7 @@
+Prioridad de Identificaciones
+
+- Cédula
+- Cédula de Residente
+- Permiso de Trabajo
+- Número de Pasaporte
+- Sin Documentos

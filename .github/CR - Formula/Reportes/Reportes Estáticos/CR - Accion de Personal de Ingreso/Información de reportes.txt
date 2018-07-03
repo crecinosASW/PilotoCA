@@ -1,0 +1,34 @@
+- Accion de Personal de Ingreso
+	- Módulo: Acciones de Personal
+	- Nombre: Accion de Personal Ingreso
+	- Formato:
+		- Carta, separar el dealle en hoja
+	- Parámetros:
+		- Compañía (No Visible)
+		- Empleado
+		- Fecha de Ingreso: Formato DD/MM/YYYY
+		- Usuario (No Visible)
+	- Campos:
+		- Nombre de compañía
+		- Tipo de acción
+		- Número: ¿A que se refiere el campo número?
+		- Abreviatura de acción ¿ING siempre es la misma para este tipo de acción?
+		- Fecha Acción: ¿Es igual a la fecha de ingreso? Fecha de ingreso del empleado, formato DD/MM/YYYY
+		- Empleado: Código del empleado
+		- Nombre: Apellidos y nombres del empleado
+		- Cédula: Cédula del empleado
+		- Fecha Ingreso: Fecha de ingreso del empleado, formato DD/MM/YYYY
+		- Puesto: Plaza del empleado
+		- Centro de costo: Centro de costo del empleado
+		- Departamento: Unidad del empleado
+		- Nómina: Tipo de planilla del empleado
+		- Ausencia: Vacío
+		- Fecha Rige: Fecha de ingreso del empleado, formato DD/MM/YYYY
+		- Hasta: Fecha fin del empleado en el caso de personal temporal, formato DD/MM/YYYY
+		- Días: Vacío
+		- Estado: ACT ¿Siempre es ACT o existen otros estados para está acción?
+		- Nuevo Salario: Valor del salario del empleado, ej. 1,118.49
+		- Moneda: Abreviatura de la moneda del salario del empleado ej. CRC
+		- Comentario de acción: ¿El comentario siempre ese el mismo para esta acción?
+		- Elaborada por: ¿Nombre del empleado o del usuario?
+		- Fecha-Hora: Fecha y hora de la creación de la acción ¿Es la misma de la fecha de ingreso o es la fecha de solicitud?, formato DD/MM/YYYY HH:MM:SSAM

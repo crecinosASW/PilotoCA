@@ -1,0 +1,10 @@
+Pasos para la integración del reporte
+1) Ejecutar los scripts en la base de datos de Visual Hur
+	- 01 - rpe_planilla_ins.sql
+	- 02 - Script de Configuración.SQL
+	- 03 - Script para creación de la familia de ingresos CR - Planilla I.N.S. - Salario.sql
+2) Copiar el archivo "cr_rpe_planilla_ins.rpt" a la carpeta de Reportes\CostaRica en la carpeta donde se instaló la aplicación
+
+Si desean agregar un ingreso adicional en la columna de salario y de días, deben agregarlo a la familia de ingresos "CR - Planilla I.N.S. - Salario",
+esta se encuentra en: Administración de Salarios > Agrupadores > Familias de Ingresos y Descuentos
+

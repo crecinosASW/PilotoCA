@@ -1,0 +1,26 @@
+- Reporte de Salarios Por Período
+	- Módulo: Salarios
+	- Nombre: Salarios por Período
+	- Formato: Carta ¿Se desea imprimir, está bien el formato?
+	- Parámetros:
+		- Compañía (No Visible)
+		- Tipo de planilla: Tipo de planilla a visualizar
+		- Planilla: Código de la planilla a visualizar
+		- Empleado (No obligatorio)
+		- Usuario (No Visible)
+	- Campos:
+		- Logo
+		- Fecha de generación: Formato DD/MM/YYYY
+		- Hora de generación: Formato HH:Mi:SS (p.m. o a.m.) ej. 12:01:53 p.m.
+		- Número de página
+		- Código del tipo de planilla
+		- Tipo de planilla
+		- Código del empleado
+		- Apellidos y nombres del empleado
+		- Fecha del ingreso: Formato DD/MM/YYYY
+		- Para cada uno de los días de la planilla, se colocan el detalle de los ingresos recibidos ordenados por el orden del tipo de ingreso, cada ingreso con las siguientes columnas:
+			- Abreviatura del tipo de ingreso
+			- Tipo de ingreso
+			- Valor
+		- Total por día: Total por cada uno de los días de la planilla
+		- Total por planilla: Total de ingresos de toda la planilla

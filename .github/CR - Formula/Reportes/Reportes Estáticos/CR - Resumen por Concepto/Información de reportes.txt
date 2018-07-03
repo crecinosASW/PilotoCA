@@ -1,0 +1,43 @@
+- Reporte de Resumen por concepto (La información puede ser la misma que el Reporte de Desgloce por Concepto)
+	- Módulo: Salarios
+	- Nombre: Resumen por concepto
+	- Formato: Carta ¿Se desea imprimir, está bien el formato?
+	- Parámetros:
+		- Compañía (No Visible)
+		- Tipo de planilla: Tipo de planilla a visualizar
+		- Planilla Inicial: Código de la planilla inicial a visualizar
+		- Planilla Final: Código de la planilla final a visualizar
+		- Concepto: Tipo de deducción
+		- Empleado (No obligatorio)
+		- Usuario (No Visible)
+	- Campos:
+		- Logo
+		- Fecha de generación: Formato DD/MM/YYYY
+		- Hora de generación: Formato HH:Mi:SS (p.m. o a.m.) ej. 12:01:53 p.m.
+		- Número de página		
+		- Nombre de la empresa
+		- Dirección de la empresa
+		- Distrito, Canton y Provincia de la empresa
+		- Teléfono de la empresa
+		- Código del tipo de planilla
+		- Abreviatura del tipo de descuento
+		- Código del período de planilla inicial
+		- Código del período de planilla final
+		- Código del empleado
+		- Apellidos y nombres del empleado
+		- Cuenta contable de centro de costo: Eliminar
+		- ¿A que se refiere el segundo campo al lado del nombre del empleado? Eliminar
+		- ¿A que se refiere el tercer campo al lado del nombre del empleado? Eliminar
+		- Para cada una de las deducciones por empleado para todos los períodos, muestra las siguientes columnas:
+			- Nómina: Código del tipo de planilla
+			- Número: Código de la planilla
+			- Cuenta contable de centro de costo: Eliminar
+			- Concepto: Abreviatura del tipo de descuento
+			- Descripción: Tipo de descuento
+			- Cantidad: Eliminar
+			- Monto: Eliminar
+			- Total: Valor de la deducción ¿Siempre es igual al monto?
+		- Total concepto: Total por el tipo de deducción
+		- Total tipo de concepto: Total por el tipo de deducción ¿Es igual al total concepto, es necesario?
+		- Neto empleado: Total por el tipo de deducción ¿A que se refiere este campo?
+		- Neto Total: Total por el tipo de deducción ¿A que se refiere este campo?

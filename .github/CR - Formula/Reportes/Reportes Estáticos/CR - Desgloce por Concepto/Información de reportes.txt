@@ -1,0 +1,28 @@
+- Reporte de Desgloce por Concepto	
+	- Módulo: Salarios
+	- Nombre: Desgloce por Conepto
+	- Formato: Carta ¿Se desea imprimir, está bien el formato?
+	- Parámetros:
+		- Compañía (No Visible)
+		- Tipo de planilla: Tipo de planilla a visualizar
+		- Planilla Inicial: Código de la planilla inicial a visualizar
+		- Planilla Final: Código de la planilla final a visualizar
+		- Concepto: Tipo de deducción
+		- Usuario (No Visible)
+	- Campos:
+		- Logo
+		- Nombre de la empresa
+		- Dirección de la empresa
+		- Distrito, Canton y Provincia de la empresa
+		- Teléfono de la empresa
+		- Tipo de planilla
+		- Por cada uno de los descuentos de la planilla, se muestra a detalle los empleados que recibieron dicha deducción, y las siguientes columnas:
+			- Abreviatura del tipo de deducción
+			- Tipo de deducción
+			- Nom: Abreviatura del tipo de planilla
+			- #Nom: Número de la planilla
+			- Sem: Número de semana
+			- Código: Código del empleado
+			- Monto: Valor de la deducción
+			- Total: Eliminar
+		- Total por deducción

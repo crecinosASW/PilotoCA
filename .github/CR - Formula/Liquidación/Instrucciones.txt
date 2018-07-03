@@ -1,0 +1,64 @@
+Liquidaciones de Costa Rica
+
+Pasos para configurar las liquidacions de Costa Rica:
+
+1) Ejecutar los scripts en el orden indicado y en las bases de datos correspondientes.
+	01 - Campos Adicionales.sql (EvoConfig)
+	02 - Parámetros de Aplicación.sql (EvoData)
+	03 - Parámetro de Aplicación TablaCesantia.sql (EvoData)
+	04 - Parámetro de Aplicación TablaPreaviso.sql (EvoData)
+	05 - Rubros Salariales.sql (EvoData)
+	06 - Categorías y Motivos de Retiro.sql (EvoData)
+	07 - Agrupadores.sql (EvoData)
+	101 - cr.hli_historico_liquidaciones.sql (EvoData)
+	301 - gen.fn_antiguedad.sql (EvoData)
+	302 - gen.fn_antiguedad_meses.sql (EvoData)
+	303 - cr.obtiene_dias_amonestacion.sql (EvoData)
+	304 - cr.obtiene_dias_incapacidad.sql (EvoData)
+	305 - cr.obtiene_dias_no_trabajados.sql (EvoData)
+	501 - cr.get_promedio_ingresos.sql (EvoData)
+	502 - cr.fill_promedio_ingresos_liq.sql (EvoData)
+	503 - cr.fill_promedio_aguinaldo.sql (EvoData)
+	504 - cr.LIQ_AguinaldoProporcional.sql (EvoData)
+	505 - cr.LIQ_Cesantia.sql (EvoData)
+	506 - cr.LIQ_Preaviso.sql (EvoData)
+	507 - cr.LIQ_VacacionesProporcional.sql (EvoData)
+	508 - cr.LIQ_SalarioProporcional.sql (EvoData)
+	509 - cr.LIQ_Ingresos.sql (EvoData)
+	510 - cr.LIQ_Descuentos_Legales.sql (EvoData)
+	511 - cr.Liq_Descuentos.sql (EvoData)
+	512 - cr.calculo_liquidacion.sql (EvoData)
+	513 - acc.calc_escenario_liquidacion.sql (EvoData)
+	514 - acc.calculo_liquidacion.sql (EvoData)
+
+2) Revisar los siguientes parámetros de aplicación:
+	- CodigoRSA_Salario
+	- CodigoTIG_Aguinaldo
+	- CodigoTIG_VacacionesNoAfectas
+	- CodigoTIG_Cesantia
+	- CodigoTIG_Preaviso
+	- CodigoTIG_AnticipoQuincenal
+	- CodigoTDC_SeguroSocial
+	- CodigoTPL_Aguinaldo
+	- CesantiaMesesPromedio
+	- VacacionesMesesPromedio
+	- VacacionesDiasMinimosLey
+	- PreavisoMesesPromedio
+	- TablaCesantia
+	- TablaPreaviso
+	
+3) Configurar los agrupadores (Tomar en cuenta que el promedio para los cálculos es sobre lo devengado, en los agrupadores hay que agregar el Salario):
+	- CR - Base Cálculo de Cesantía
+	- CR - Base Cálculo de Preaviso
+	- CR - Base Cálculo de Vacaciones
+	- CR - Base calculo de Aguinaldo
+	- CR - Base Calculo Seguro Social
+	- CR - Base Calculo Renta
+
+4) Actualizar los tipos de planilla, con su planilla de aguinaldo
+
+5) Eliminar el tipo de ingreso de maternidad del agrupador CR - Base Cálculo de Aguinaldo	
+	
+6) Revisar que el riesgo de incapacidad de maternidad tenga 50% para descuento y para ingreso	
+	
+6) Probar los escenarios de liquidación y liquidaciones

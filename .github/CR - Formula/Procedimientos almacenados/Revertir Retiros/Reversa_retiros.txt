@@ -1,0 +1,141 @@
+
+/*
+exec gt.reversa_retiros '2205530', '03/08/2014'
+*/
+ALTER PROCEDURE [gt].[reversa_retiros] 
+	@PCODEMP VARCHAR(10),
+	@PFECHA_RETIRO VARCHAR(10)
+AS
+DECLARE 
+@CODIGO INT,
+@codigoWorkflow varchar(36),
+@PFECHA_DESDE DATETIME,
+@mensaje varchar(200),
+@codemp INT,
+@codigo_liq INT,
+@codigo_retiro INT
+
+set dateformat dmy
+-- Este proceso es especial por si el usuario ingreso una incapacidad erronea
+IF ISDATE(@PFECHA_RETIRO) = 0
+    begin
+      set @mensaje = 'Error!!!, La fecha ingresada es erronea: '+@PFECHA_RETIRO
+      raiserror (@mensaje, 16, 1)
+    return
+    end   
+    
+SET @PFECHA_DESDE = CONVERT(date,@PFECHA_RETIRO,103)
+
+SET @PCODEMP = isnull(@PCODEMP,'0')
+
+SELECT @codemp = emp_codigo
+  FROM EXP.emp_empleos
+  JOIN EXP.exp_expedientes on exp_codigo = emp_codexp
+  WHERE exp_codigo_alternativo = @PCODEMP
+
+if isnull(@codemp,0) = 0
+ begin
+      set @mensaje = 'Error!!!, No existe el empleado ingresado. Empleado: '+@PCODEMP+' Desde:'+convert(varchar,@PFECHA_DESDE,103)
+      raiserror (@mensaje, 16, 1)
+    return
+    end   
+
+
+if not exists (select null 
+               from acc.ret_retiros
+              where ret_codemp = @codemp 
+                and convert(varchar,ret_fecha_retiro,103)= convert(varchar,@PFECHA_DESDE,103)) 
+    begin
+      set @mensaje = 'Error!!!, No existe ningun Retiro con estos datos. Empleado: '+@PCODEMP+' Desde:'+convert(varchar,@PFECHA_DESDE,103)
+      raiserror (@mensaje, 16, 1)
+    return
+    end   
+
+if exists (select null 
+                 from exp.emp_empleos 
+				 where emp_codigo = @codemp 
+				 and emp_Estado = 'A') 
+    begin
+      set @mensaje = 'Error!!!, Este Empleado ya esta Activo. Empleado: '+@PCODEMP+' Desde:'+convert(varchar,@PFECHA_DESDE,103)
+      raiserror (@mensaje, 16, 1)
+    return
+    end   
+
+if (select plz_max_empleados -  
+                    (select count(1) from exp.emp_empleos where emp_Codplz =plz_codigo and emp_Estado = 'A')
+              from eor.plz_plazas 
+             where plz_codigo = (select emp_Codplz from exp.emp_empleos where emp_Codigo = @codemp)
+            ) <= 0 
+    begin
+      set @mensaje = 'Error!!!, No es posible revertir el retiro dado que la plaza que ocupaba la persona ya fue ocupad1. Agrege un espacio a la plaza que ocupaba la persona. Empleado: '+@PCODEMP+' Desde:'+convert(varchar,@PFECHA_DESDE,103)
+      raiserror (@mensaje, 16, 1)
+    return
+    end   
+
+
+BEGIN TRANSACTION
+
+SELECT @codigo_retiro = ret_codigo
+  FROM ACC.ret_retiros
+ WHERE ret_codemp = @codemp
+  AND convert(varchar,ret_fecha_retiro,103) = convert(varchar,@pfecha_desde,103)
+
+--------------------------------------
+--         Actualiza empleado       --
+--------------------------------------
+update exp.emp_empleos 
+        set emp_Estado = 'A', emp_fecha_retiro = null, emp_codcmr = null, emp_codmrt = null
+         where emp_codigo = @codemp
+--------------------------------------
+-- Elimina el Workflow si existiera --
+--------------------------------------
+Select @codigoWorkflow = Ret_codigo_workflow
+ from acc.ret_retiros
+ where ret_codemp = @codemp 
+   and convert(varchar,ret_fecha_retiro,103)= convert(varchar,@PFECHA_DESDE,103)
+
+IF @codigoWorkflow IS NOT NULL
+   delete wfl.ira_instancias_rutas_aut
+    where ira_codigo = @codigoWorkflow 
+
+---------------------------------------------------
+--                 Elimina el Liquidacion        --
+---------------------------------------------------	
+select @codigo_liq = lie_codigo,
+      @codigoWorkflow = lie_codigo_workflow
+ from acc.lie_liquidaciones
+where lie_codemp = @codemp
+  and convert(varchar,lie_fecha_retiro,103) = convert(varchar,@PFECHA_DESDE,103)
+
+IF isnull(@codigo_liq,0) > 0
+BEGIN
+IF @codigoWorkflow IS NOT NULL
+   delete wfl.ira_instancias_rutas_aut
+    where ira_codigo = @codigoWorkflow 
+
+delete from acc.dld_detliq_descuentos
+where dld_codlie = @codigo_liq
+
+delete from acc.dli_detliq_ingresos
+where dli_codlie = @codigo_liq
+
+delete from acc.dlr_detliq_reservas
+where dlr_codlie = @codigo_liq
+
+delete from cfg.pro_procesos where pro_entityset_name = 'Liquidaciones' and pro_codigo_entidad = @codigo_liq
+
+END
+---------------------------------------------------
+--                 Elimina el Retiro             --
+---------------------------------------------------	
+
+Delete from acc.ret_retiros
+ where ret_codemp = @codemp 
+   and convert(varchar,ret_fecha_retiro,103)= convert(varchar,@PFECHA_DESDE,103)
+
+delete from cfg.pro_procesos where pro_entityset_name = 'Retiros' and pro_codigo_entidad = @codigo_retiro
+ 
+COMMIT TRANSACTION   
+RETURN
+
+

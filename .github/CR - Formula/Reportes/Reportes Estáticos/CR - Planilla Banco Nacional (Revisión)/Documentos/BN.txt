@@ -1,0 +1,39 @@
+
+ Pag:    1                        Martec S.A.                  Fecha: 07/11/2014
+                     Listado ID Banco Nacional de Empleados
+ -----------------------------------------------------------------------------
+   # Empl.               Nombre          ID Bco C.R.         ID Bco Nacnal
+ -----------------------------------------------------------------------------
+          Rancho Chico        
+14   1 Cortes Cordero Virgilio                              3-062-200-01-010695-0
+14   2 Vasquez Salas Diego                                  3-062-200-01-010341-1
+14   3 Mendoza Vargas Francisco                             3-013-200-01-035178-6
+14   4 Calderon Cordero Margarita Maria                     3-062-200-01-010160-5
+14   5 Cortes Paniagua Luis Gabriel                         3-062-200-01-011883-4
+14   6 Cortes Garcia Greivin                                3-062-200-01-006157-3
+14   7 Molina Cortes Luis Andres                            3-062-200-01-010661-5
+14   8 Calderon Cordero Melvin                              3-013-200-01-028009-9
+14   9 Villagra Calderon Francisco Javier                   3-000-200-01-499938-0
+14  11 Rojas Villafuerte Oscar                              3-000-200-01-698981-0
+14  12 Cortes Carrillo Juan Diego                           3-062-200-01-010622-4
+14  14 Ruiz Lopez Farid                                     3-179-200-01-002503-9
+14  15 Quiros Solis Adriana                                 3-069-200-01-008353-1
+14  16 Ramirez Calderon Dixon Jose                          3-062-200-01-012442-7
+14  17 Rodriguez Ugalde Mainor Gerardo                      3-069-200-01-012458-0
+14  22 Molina Villafuerte Jeckson                           3-000-200-01-778623-9
+14  23 Sanchez Rojas Luis Miguel                            3-003-200-01-051214-6
+14  24 Lopez Solano Jose Noriel                             3-062-200-01-011691-2
+14  25 Ruiz Rojas Cristofer                                 3-000-200-01-736788-0
+14  26 Trejos Salazar Carlos                                3-179-200-01-002121-1
+14  27 Castrillo Lopez Lisimaco                             3-179-200-01-002365-6
+14  28 Lopez Jimenez Jorge Luis                             3-013-200-01-033464-4
+14  30 Buchalla Alvin Yole                00114060175                            
+14  31 Bernardo Cortes Cordero                              3-000-200-01-607789-7
+14  32 Santamaria Cortes Brayan                             3-000-200-01-888310-6
+14  34 Bienvenido Cordero Cortes                            3-062-200-01-012161-4
+14  35 Cruz Mora Luis Eduardo                               3-062-200-01-004752-0
+14  38 Perez Salas Julio Cesar                              3-062-200-01-007957-0
+14  40 Montes Cardenas Jessica                              3-062-200-01-008137-0
+14  41 Mayorga Mora Victor Alfonso                          3-062-200-01-010353-5
+ -----------------------------------------------------------------------------
+          Total  Rancho Chico        

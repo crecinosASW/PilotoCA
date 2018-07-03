@@ -1,0 +1,262 @@
+Reportes
+
+- Accion de Personal de Ingreso
+	- Módulo: Acciones de Personal
+	- Nombre: Accion de Personal Ingreso
+	- Formato:
+		- Carta, separar el dealle en hoja
+	- Parámetros:
+		- Compañía (No Visible)
+		- Empleado
+		- Fecha de Ingreso: Formato DD/MM/YYYY
+		- Usuario (No Visible)
+	- Campos:
+		- Nombre de compañía
+		- Tipo de acción
+		- Número: ¿A que se refiere el campo número?
+		- Abreviatura de acción ¿ING siempre es la misma para este tipo de acción?
+		- Fecha Acción: ¿Es igual a la fecha de ingreso? Fecha de ingreso del empleado, formato DD/MM/YYYY
+		- Empleado: Código del empleado
+		- Nombre: Apellidos y nombres del empleado
+		- Cédula: Cédula del empleado
+		- Fecha Ingreso: Fecha de ingreso del empleado, formato DD/MM/YYYY
+		- Puesto: Plaza del empleado
+		- Centro de costo: Centro de costo del empleado
+		- Departamento: Unidad del empleado
+		- Nómina: Tipo de planilla del empleado
+		- Ausencia: Vacío
+		- Fecha Rige: Fecha de ingreso del empleado, formato DD/MM/YYYY
+		- Hasta: Fecha fin del empleado en el caso de personal temporal, formato DD/MM/YYYY
+		- Días: Vacío
+		- Estado: ACT ¿Siempre es ACT o existen otros estados para está acción?
+		- Nuevo Salario: Valor del salario del empleado, ej. 1,118.49
+		- Moneda: Abreviatura de la moneda del salario del empleado ej. CRC
+		- Comentario de acción: ¿El comentario siempre ese el mismo para esta acción?
+		- Elaborada por: ¿Nombre del empleado o del usuario?
+		- Fecha-Hora: Fecha y hora de la creación de la acción ¿Es la misma de la fecha de ingreso o es la fecha de solicitud?, formato DD/MM/YYYY HH:MM:SSAM
+		
+- Cálculo de Prestaciones Laborales
+	- Módulo: Acciones de Personal
+	- Nombre: Cálculo de Prestaciones Laborales
+	- Formato: Carta separado el detalle
+	- Parámetros:
+		- Compañía (No Visible)
+		- Empleado
+		- Fecha de Retiro: Formato DD/MM/YYYY
+		- Usuario (No Visible)
+	- Campos:
+		- Nombre de compañía
+		- Fecha preparado: Fecha de solicitud
+		- Rige desde: Fecha de retiro del empleado, formato DD-MES-YYYY
+		- ¿Es reuncia?: Indica si el retiro es por renuncia
+		- ¿Es despido?: Indica si el retiro es por despido
+		- Nombre: Nombres del empleado
+		- Primer apellido: Primer apellido del empleado
+		- Segundo apellido: Segundo apellido del empleao
+		- Dirección: Dirección del empleado
+		- Teléfono: Teléfono del empleado
+		- No. Cédula: Cédula del empleado
+		- No. C.C.S.S.: Número de seguro social del empleado
+		- Estado Civil: Estado civil del empleado
+		- Fecha Ingreso: Fecha de inreso del empleado, formato DD/MM/YYYY
+		- Fecha Salida: Fecha de retiro del empleado, formato DD/MM/YYYY
+		- Puesto: Plaza del empleado
+		- Departamento: Unidad del empleado
+		- Jefe Inmediato: Apellidos y nombres del jefe del departamento (Más alto) ej. Edgar Vega
+		- Salario Actual Mensual: Salario vigente del empleado
+		- Monto Aumento: 0.00 
+		- Salario Nuevo: Vacío
+		- % Aumento: Vacío
+		- Explicación: Motivo de retiro
+		- Tiempo Servido: Tiempo en la compañía, formato: AA años, MM meses y DD dias, ejemplo: 9 años, 5 meses y 3 días 
+			- si tiene meses completos aparece 0 días
+		- 6 meses: Total de ingresos de los últimos 6 meses
+		- Salario promedio mensual: Salario promedio para el cálculo
+		- Salario promedio diario: Salario promedio diario
+		- Salario mínimo ley: Salario mínimo de ley
+		- ¿Paga preaviso?: Indica si paga preaviso 
+		- ¿Paga cesantía?: Indica si paga cesantía 
+		- ¿Paga vacaciones?: Indica si paga vacaciones
+		- ¿Paga Aguinaldo?: Indica si paga aguinaldo
+		- ¿Paga Ahorro Patronal?: Indica si paga ahorro patronal
+		- ¿Paga Ahorro Escolar?: Indica si paga ahorro escolar
+		- Preaviso: Valor de preaviso. Formato 386,452  
+		- Dias Preaviso: Días de preaviso
+		- Cesantía antes de la reforma: Valor de cesantía
+		- Días Cesantía: Días de cesantía
+		- Vacaciones: Valor de vacaciones
+		- Días de vacaciones
+		- Aguinaldo: Valor de aguinaldo
+		- Ahorro Patronal: Valor de ahorro patronal
+		- Ahorro Escolar: Valor de ahorro escolar
+		- Total ingresos: Total de ingresos que recibe en la liquidación
+		- C.C.S.S.: Valor del seguro social
+		- Salario: Si el empleado recibió salario de más, ingresar manualmente
+		- Vacaciones: Valor de las vacaciones que debe el empleado, ingresar manualmente
+		- Asosucocitro: Valor que se paga por asociación
+		- Otros: Valor de otras deducciones
+		- Total descuentos: Total de descuentos que se le aplican en la liquidación
+		- Neto a pagar: Neto a pagar en la liquidación
+		- Firma: Vacío 
+		- Fecha: Vacío 
+		- Hecho por: Vacío 
+		- Revisado por: Vacío 
+		- Autorizado por: Vacío 
+		- ¿Cuantos meses deben aparecer en la sección del detalle de salarios de prestaciones?
+			- Dejar desde diciembre del año anterior al mes de retiro (Igual que el aguinaldo)
+		- Para la sección detalle de salarios prestaciones
+			- Se deben de mostrar los meses desde diciembre del año anterior hasta la fecha de retiro, para cada uno de los meses: ¿Cuantos meses deben aparecer en la sección del detalle de salarios de prestaciones?
+				- Nombre del mes y año
+				- Salario bruto percibido
+				- Número de mes del promedio, solo si está completo
+				- Total: Salario bruto percibido
+			- Total de salarios: Total percibido en los meses
+			- Total de promedio: Total de ingresos de los últimos 6 meses
+			- Salario promedio mensual: Salario promedio para el cálculo
+			- Salario promedio diario: Salario promedio diario
+			- Decimal: Eliminar
+		- Para la sección calculo aguinaldo
+			- Se deben de mostrar los meses desde diciembre del año anterior hasta la fecha de retiro, para cada uno de los meses: 
+				- Nombre del mes y año
+				- Salario bruto percibido
+			- Total de salarios: Total percibido en los meses
+			- Entre 12 meses: Número de meses del período de aguinaldo
+			- Total aguinaldo x pagar: Valor de aguinaldo a pagar en la liquidación
+
+- Reporte de Planilla
+	- Módulo: Salarios
+	- Nombre: Planilla Detallada
+	- Formato: Excel
+	- Parámetros:
+		- Compañía (No Visible)
+		- Tipo de planilla: Tipo de planilla a visualizar
+		- Planilla: Código de la planilla a visualizar
+		- Usuario (No Visible)
+	- Campos:
+		- Nombre de compañía
+		- Dirección de la compañía
+		- Distrito, Canton y Provincia (Departamento, Municipio y Lugar)
+		- Teléfono
+		- Código del empleado
+		- Apellidos y nombres del empleado
+		- Idenitificación: Cédula del empleado o Pasaporto u otra identificación
+		- Cuenta contable Centro de costo
+		- Centro de costo: Nombre del centro de costo
+		- Código de la plaza del empleado
+		- Plaza: Nombre de la plaza
+		- Código de la unidad del empleado 
+		- Ubicación: Nombre de la unidad del empleado 
+		- Código visual del tipo de planilla
+		- Tipo planilla: Nombre del tipo de planilla
+		- Código del departamento: ¿A que se refiere este campo?
+		- Departamento: Eliminar
+		- Salario Referencia: Eliminar
+		- Para cada uno de los ingresos ordenados por el orden del tipo de ingreso se deben colocar las siguientes columnas:
+			- Monto: Valor recibido del tipo de ingreso
+			- Cantidad: Días o horas por el tipo de ingreso
+		- Total beneficioes: Total de los ingresos
+		- Para cada uno de los descuentos ordenados por el orden del tipo de descuento se deben colocar las siguientes columnas:
+			- Monto: Valor recibido del tipo de descuento
+			- Cantidad: Días o horas por el tipo de descuento
+		- Total deducciones: Total de las deducciones
+		- Neto: Neto a pagar en la planilla
+		
+
+- Reporte de Salarios Por Período
+	- Módulo: Salarios
+	- Nombre: Salarios por Período
+	- Formato: Carta ¿Se desea imprimir, está bien el formato?
+	- Parámetros:
+		- Compañía (No Visible)
+		- Tipo de planilla: Tipo de planilla a visualizar
+		- Planilla: Código de la planilla a visualizar
+		- Empleado (No obligatorio)
+		- Usuario (No Visible)
+	- Campos:
+		- Logo
+		- Fecha de generación: Formato DD/MM/YYYY
+		- Hora de generación: Formato HH:Mi:SS (p.m. o a.m.) ej. 12:01:53 p.m.
+		- Número de página
+		- Código del tipo de planilla
+		- Tipo de planilla
+		- Código del empleado
+		- Apellidos y nombres del empleado
+		- Para cada uno de los días de la planilla, se colocan el detalle de los ingresos recibidos ordenados por el orden del tipo de ingreso, cada ingreso con las siguientes columnas:
+			- Abreviatura del tipo de ingreso
+			- Tipo de ingreso
+			- Valor
+		- Total por día: Total por cada uno de los días de la planilla
+		- Total por planilla: Total de ingresos de toda la planilla
+		
+- Reporte de Desgloce por Concepto	
+	- Módulo: Salarios
+	- Nombre: Desgloce por Conepto
+	- Formato: Carta ¿Se desea imprimir, está bien el formato?
+	- Parámetros:
+		- Compañía (No Visible)
+		- Tipo de planilla: Tipo de planilla a visualizar
+		- Planilla Inicial: Código de la planilla inicial a visualizar
+		- Planilla Final: Código de la planilla final a visualizar
+		- Concepto: Tipo de deducción
+		- Usuario (No Visible)
+	- Campos:
+		- Logo
+		- Nombre de la empresa
+		- Dirección de la empresa
+		- Distrito, Canton y Provincia de la empresa
+		- Teléfono de la empresa
+		- Tipo de planilla
+		- Por cada uno de los descuentos de la planilla, se muestra a detalle los empleados que recibieron dicha deducción, y las siguientes columnas:
+			- Abreviatura del tipo de deducción
+			- Tipo de deducción
+			- Nom: Abreviatura del tipo de planilla
+			- #Nom: Número de la planilla
+			- Sem: Número de semana
+			- Código: Código del empleado
+			- Monto: Valor de la deducción
+			- Total: Eliminar
+		- Total por deducción
+		
+- Reporte de Resumen por concepto (La información puede ser la misma que el Reporte de Desgloce por Concepto)
+	- Módulo: Salarios
+	- Nombre: Resumen por concepto
+	- Formato: Carta ¿Se desea imprimir, está bien el formato?
+	- Parámetros:
+		- Compañía (No Visible)
+		- Tipo de planilla: Tipo de planilla a visualizar
+		- Planilla Inicial: Código de la planilla inicial a visualizar
+		- Planilla Final: Código de la planilla final a visualizar
+		- Concepto: Tipo de deducción
+		- Empleado (No obligatorio)
+		- Usuario (No Visible)
+	- Campos:
+		- Logo
+		- Fecha de generación: Formato DD/MM/YYYY
+		- Hora de generación: Formato HH:Mi:SS (p.m. o a.m.) ej. 12:01:53 p.m.
+		- Número de página		
+		- Nombre de la empresa
+		- Dirección de la empresa
+		- Distrito, Canton y Provincia de la empresa
+		- Teléfono de la empresa
+		- Código del tipo de planilla
+		- Abreviatura del tipo de descuento
+		- Código del período de planilla inicial
+		- Código del período de planilla final
+		- Código del empleado
+		- Apellidos y nombres del empleado
+		- Cuenta contable de centro de costo: Eliminar
+		- ¿A que se refiere el segundo campo al lado del nombre del empleado? Eliminar
+		- ¿A que se refiere el tercer campo al lado del nombre del empleado? Eliminar
+		- Para cada una de las deducciones por empleado para todos los períodos, muestra las siguientes columnas:
+			- Nómina: Código del tipo de planilla
+			- Número: Código de la planilla
+			- Cuenta contable de centro de costo: Eliminar
+			- Concepto: Abreviatura del tipo de descuento
+			- Descripción: Tipo de descuento
+			- Cantidad: Eliminar
+			- Monto: Eliminar
+			- Total: Valor de la deducción ¿Siempre es igual al monto?
+		- Total concepto: Total por el tipo de deducción
+		- Total tipo de concepto: Total por el tipo de deducción ¿Es igual al total concepto, es necesario?
+		- Neto empleado: Total por el tipo de deducción ¿A que se refiere este campo?
+		- Neto Total: Total por el tipo de deducción ¿A que se refiere este campo?

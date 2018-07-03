@@ -1,0 +1,49 @@
+ 
+SET NOCOUNT ON
+SET LANGUAGE us_english 
+ 
+PRINT 'Inserting values into [stp_store_procedures]'
+
+INSERT [spx].[stp_store_procedures] ([stp_codigo], [stp_nombre_loc_key], [stp_descripcion_loc_key], [stp_proc_almacenado], [stp_orden], [stp_codpai], [stp_usuario_grabacion], [stp_fecha_grabacion], [stp_usuario_modificacion], [stp_fecha_modificacion]) VALUES ('Reversa_Retiros', 'Reversa Retiros', 'Reversa Retiros', 'gt.Reversa_Retiros', 0, 'gt', 'admin', '2013-06-14 16:15:09', 'admin', '2013-06-17 09:30:23')
+
+PRINT 'Done'
+ 
+ 
+SET NOCOUNT OFF
+ 
+SET NOCOUNT ON
+ 
+ 
+PRINT 'Inserting values into [dpp_det_param_procedimientos]'
+
+INSERT [spx].[dpp_det_param_procedimientos] ([dpp_codstp], [dpp_parametro], [dpp_descripcion_loc_key], [dpp_codfld], [dpp_codvli], [dpp_prompt_loc_key], [dpp_visible], [dpp_orden], [dpp_valor], [dpp_usuario_grabacion], [dpp_fecha_grabacion], [dpp_usuario_modificacion], [dpp_fecha_modificacion]) VALUES ('Reversa_Retiros', 'pcodemp', 'Código de empleado', 'string', 'ExpedientesConEmpleosActivosDeCompania', 'Código de empleado', 1, 0, NULL, 'admin', '2013-06-14 16:17:18', 'admin', '2013-06-17 09:22:42')
+INSERT [spx].[dpp_det_param_procedimientos] ([dpp_codstp], [dpp_parametro], [dpp_descripcion_loc_key], [dpp_codfld], [dpp_codvli], [dpp_prompt_loc_key], [dpp_visible], [dpp_orden], [dpp_valor], [dpp_usuario_grabacion], [dpp_fecha_grabacion], [dpp_usuario_modificacion], [dpp_fecha_modificacion]) VALUES ('Reversa_Retiros', 'PFECHA_RETIRO', 'Fecha de Retiro', 'string', NULL, 'Fecha de Retiro (DD/MM/YYYY)', 1, 2, NULL, 'admin', '2013-06-17 09:24:08', 'admin', '2013-06-17 09:30:17')
+
+PRINT 'Done'
+ 
+ 
+SET NOCOUNT OFF
+ 
+SET NOCOUNT ON
+ 
+ 
+PRINT 'Inserting values into [spm_store_procedure_modulo]'
+
+INSERT [spx].[spm_store_procedure_modulo] ([spm_codstp], [spm_codmod]) VALUES ('Reversa_Retiros', 'Acciones')
+
+PRINT 'Done'
+ 
+ 
+SET NOCOUNT OFF
+ 
+SET NOCOUNT ON
+ 
+ 
+PRINT 'Inserting values into [spr_store_procedure_roles]'
+
+INSERT [spx].[spr_store_procedure_roles] ([spr_codstp], [spr_codrol]) VALUES ('Reversa_Retiros', 'Administrador')
+
+PRINT 'Done'
+ 
+ 
+SET NOCOUNT OFF

@@ -1,0 +1,29 @@
+Manejan diferente tipos de licencias
+- Matrimonio: Se pagan 2 días con goce de salario
+- Nacimiento de Hijo: Se pagan 2 días con goce de salario
+- Cita médica programada: Se paga solamente 2 citas al año
+- Fallecimiento (Familiares directos): Padre, Madre, Hijos y Conyugue: 4 días con goce de salario
+- Fallecimiento (Familiares Indirectos: Abuelos y Heramnos: 1 días con goce de salario y 1 días sin goce de salario
+- Diligencia Judicial: 1 día con goce de salario
+
+- Todos los tiempos no trabajados van por horas normales
+
+- Los ingresos deben estar lo más detallado posible
+
+- Cierto personal tiene hora de lactancia, aunque la persona no la marque es necesario pagarsela
+
+- El salario mínimo aplica para todo el personal
+- Ajustar todos los reportes para que aparezca deducciones en lugar de descuentos
+
+- La planilla de Gerencia Colones tiene los mismos cálculos que la administrativa
+
+- El salario bruto 
+
+- Los empleados retirados se les debe pagar su salario en la planilla, no en la liquidación
+
+- El código del empleado, se desea que se maneja de forma automática, como un correlativo
+
+- Las contabilización la realizan los ingresos agrupados por centro de costo y tipo de ingreso y los descuentos agrupados por tipo de descuento y
+  las reservas se configuran por centro de costo y por tipo de reserva y la contrapartida por tipo de reserva
+  
+- Las cuentas contables se van a definir en los tipos de ingresos y en los tipos de descuentos

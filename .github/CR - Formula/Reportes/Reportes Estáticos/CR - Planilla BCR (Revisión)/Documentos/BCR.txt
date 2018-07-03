@@ -1,0 +1,413 @@
+
+ Pag :   1                        Martec S.A.
+                         Listado Banco de Costa Rica             05/11/2014
+ -----------------------------------------------------------------------------
+   # Empl.                  Nombre         Cedula           Monto
+ -----------------------------------------------------------------------------
+
+  1    3 Murillo Garcia Karen            603700206      69,046.00
+  1    5 Morales Chinchilla Alejandro    603000086     204,689.00
+  1    7 Hernandez Pe¤a Jorge            601920124      63,291.00
+  1    8 Mendez Solis Randal Jesus       604130570      72,182.00
+  1   10 Baltodano Villagra Carlos       502680684      71,338.00
+  1   11 Azofeifa Herrera Rafael         701110433      51,811.00
+  1   12 Jara Monge Miguel               601060411      26,713.00
+  1   13 Diaz Corea Jorsen Sebastian     205750203      35,447.00
+  1   14 Valverde Matarrita Tatiana      604170884       2,666.00
+  1   15 Montoya Jimenez Blanca Rosa     602210433      58,109.00
+  1   16 Quesada Flores Erick Mauricio   701680528      16,685.00
+  1   18 Cerdas Zambrana Wilberth        601060363      35,228.00
+  1   20 Sanchez Mesen Nancy             114040953    Cesan.
+  1   22 Rios Campos Pedro Jose          602660334      66,742.00
+  1   24 Fernandez Elizondo Rosibel      113560761      81,021.00
+  1   25 Brenes Salazar Luis Andres      503380914      58,373.00
+  1   30 Zu¤iga Rios Julio Cesar         113370808      46,611.00
+  1   32 Chaves Morales Alexander        603750704      48,095.00
+  1   34 Cascante Garcia Elizabeth       603030407      52,609.00
+  1   37 Garita Amador Angel Yeison      603470477      39,651.00
+  1   38 Thompson Garcia Alejandra Vane  108380431      56,761.00
+  1   43 Cerdas Hernandez Linsaid        114160391      15,858.00
+  1   44 Garcia Cordero Taison           114290261      60,744.00
+  1   48 Melendez Mena Jonatan Antonio   603910479      50,934.00
+  1   49 Garcia Chacon David Alberto     113730094      68,396.00
+  1   50 Rodriguez Flores Gladis         602540191      43,303.00
+  1   52 Rivas Castillo Elizabeth Mauth  702010087      56,816.00
+  1   54 Godinez Monge Cinthya           603430784      36,202.00
+  1   56 Martinez Campos Carlos          601760776      58,772.00
+  1   60 Matamoros Guzman Mauricio Jose  111760081     103,169.00
+  1   66 Rojas Rojas Marcos Aurelio      603300089      27,050.00
+  1   73 Velasquez Ortiz Allan Antonio   18472876       82,871.00
+  1   74 Romero Jenkins Bryan            116030933      20,895.00
+  1   82 Chaves Madrigal Josue Andres    603740095      49,435.00
+  1   85 Piedra Hernandez Yeni Isabel    603950037      60,035.00
+  1   86 Elizondo Hernandez Jose Paulin  604070302      50,274.00
+  1   88 Fernandez Mesen Allan           702110024      66,068.00
+  1   90 Rodriguez Solano Oscar          702130034      52,531.00
+  1   91 Aguerro Murillo Kender          603690112      58,392.00
+  1   92 Peralta Diaz Jordy              604090395      55,485.00
+  1   93 Arias Artavia Danilo            604240676      61,065.00
+  1   94 Arias Rocha Cristofer           604320805      60,025.00
+  1   95 Fernanez Alpizar Natacha        604010024      25,911.00
+  1   97 Mendoza Piedra Miller Daniel    116030487      46,240.00
+  1   99 Mora Mata Laura                 112770634      67,321.00
+  1  101 Bonilla Gutierrez Georggy       604300885      51,568.00
+  1  102 Mena Cabalceta Noe              603220291      48,968.00
+  1  103 Parra Chavarria Keylin          701970439      81,620.00
+  1  104 Perez Herrera Jacqueline        604170306    Incap.
+  1  105 Chavarria Barquero Olman Andre  113040521      52,612.00
+  1  106 Carmona Vargas Josue            604310816      50,075.00
+  1  126 Garcia Zu¤iga Maikol            115160989      51,162.00
+ -----------------------------------------------------------------------------
+                                                      2770,865.00
+
+
+  2    1 Chaves Villalobos Vinicio       104670202     467,827.00
+  2    2 Ortega Quesada German Alan      401550563     226,850.00
+ Pag :   2                        Martec S.A.
+                         Listado Banco de Costa Rica             05/11/2014
+ -----------------------------------------------------------------------------
+   # Empl.                  Nombre         Cedula           Monto
+ -----------------------------------------------------------------------------
+  2    3 Urbina Moreno Maryeling Mariel  293508022      35,632.00
+  2    4 Flores Mora Raudyn              602300736      76,546.00
+  2    5 Miles Hamsher Robert Lee        800940472           0.00
+  2    6 Cespedes Soto Marcos            603210809      51,405.00
+  2    7 Anchia Cascante Karla           602880761      56,015.00
+  2    8 Espinoza Chaves Freddy          109540347     154,224.00
+  2    9 Morales Uma¤a Mar De Luz        602350532      72,097.00
+  2   10 Salazar Jara Deily Mariela      702100847      53,647.00
+  2   11 Porras Contreras Johana Karina  29350221       44,713.00
+  2   12 Mora Mora Yerlin Tatiana        603830777      45,507.00
+  2   13 Polini Sequeira Max             104191245     218,955.00
+  2   14 Navarro Rodriguez Freddy Alber  105600217     289,283.00
+  2   15 Arias Quiros Francisco          603200715     117,078.00
+  2   16 Arias Lorenzano Roy             603770360      93,573.00
+  2   17 Figueroa Garcia Joxan Eduardo   603980316      46,352.00
+  2   18 Barahona Bonilla Cristian       303380482      61,215.00
+  2   19 Jimenez Jimenez Roxana          111310231      20,922.00
+  2   21 Sandi Jimenez Reiner Fabi       604090234    Cesan.
+  2   23 Gomez Cascante Jose Joaquin     105860765      98,930.00
+  2   24 Jaimes Davila Priscila Maria    603500543      54,089.00
+  2   26 Hernandez Blanco Albin          601990999      80,218.00
+  2   28 Suarez Zavala Francisco Javier  017361783     632,351.00
+  2   29 Acosta Pe¤a William             602050510     121,025.00
+  2   30 Fonseca Baltodano Rubenia       603410302         522.00
+  2   31 Cabalceta Castillo Brandon      604120230      87,003.00
+  2   34 Mairena Corea Jose Antonio      602380968      45,851.00
+  2   35 Salas Aguero Olger              603320512      48,936.00
+  2   36 Rodriguez Rojas Andrey          112580575           0.00
+  2   37 Espinoza Herrear Paola          603600537           0.00
+ -----------------------------------------------------------------------------
+                                                      3300,766.00
+
+
+  3    1 Rodriguez Chavarria Katerine    604270688      32,909.00
+  3    2 Gamboa Sanchez Manfri           114720365      91,703.00
+  3    4 Gomez Rodriguez Cristopher      304610181      48,535.00
+  3    5 Gomez Rodriguez Cristian        304250174     147,305.00
+  3    8 Miranda Vasquez Javier Alberto  601730240       5,240.00
+  3   10 Salazar Tapia Alexis            602120898      71,708.00
+  3   11 Miranda Urbina Junior           603560850      85,942.00
+  3   12 Cambronero Acosta Wilfredo      602190671      96,446.00
+  3   13 Torres Quiros Dustin Geovana    604210632      25,467.00
+  3   14 Chacon Vargas Michael           603660371     103,656.00
+  3   15 Porras Contreras Luis Manuel    108680104      71,297.00
+  3   19 Nu¤ez Garcia Juan               251085003     475,952.00
+  3   20 Nu¤ez Chavarria Jose Manuel     602350826      45,291.00
+  3   22 Valverde Valverde Eliecer       603820359      94,569.00
+  3   23 Jimenez Obando Erikson          113590563     104,984.00
+  3   24 Esquivel Castro Alvaro          602780126      89,700.00
+  3   25 Miles Fernandez Murphy          113820864     184,634.00
+  3   28 Morales Jacamo Luis Fernando    603950222      60,589.00
+  3   30 Ure¤a Valverde Ramiro           106780982     153,750.00
+  3   31 Montero Hidalgo Victor          601110110      86,715.00
+  3   32 Gomez Cascante Jorge            106770131     118,640.00
+  3   36 Rodriguez Gamboa Susana         411150205      53,537.00
+  3   40 Esquivel Castro Mainor          602370297      56,300.00
+  3   41 Chinchilla Aguero Lenin         602880004      80,552.00
+  3   42 Ordo¤ez Campos Edwin Eduardo    602380674      57,710.00
+  3   47 Meza Sandi Andrei               603860262      75,785.00
+ Pag :   3                        Martec S.A.
+                         Listado Banco de Costa Rica             05/11/2014
+ -----------------------------------------------------------------------------
+   # Empl.                  Nombre         Cedula           Monto
+ -----------------------------------------------------------------------------
+  3   54 Fonseca Arias Neftali           603650844      63,435.00
+  3   59 Sanchez Garro Ricardo           113490331      66,493.00
+  3   68 Moraga Chavarria Ever           115160719      55,045.00
+  3   70 Somma Peter John                              358,549.00
+  3   72 Mairena Rosales Wagner          109770190      54,118.00
+  3   74 Morales Chinchilla Keylor       603450430      45,075.00
+  3   75 Lopez Espinoza Erick            205580809      59,397.00
+  3   77 Vega Rojas Daniel               205380566      54,118.00
+  3   79 Sanchez Jimenez Jean Carlos     604290162      56,914.00
+  3   80 Mendez Fallas Cristian          603180294      55,603.00
+  3   81 Fallas Quesada Aracelly Maria   115520485      53,484.00
+ -----------------------------------------------------------------------------
+                                                      3441,147.00
+
+
+  4    2 Araya Alcazar Edwin Guillermo   601730156      57,224.00
+  4    3 Elizondo Matarrita Daniel       502470857      81,329.00
+  4    5 Zu¤iga Rios Eduardo             602580888      70,638.00
+  4    7 Castro Valverde Dennis          900810564      94,219.00
+  4    9 Garcia Cordero Joxssi           603800028      45,198.00
+  4   11 Salgado Villarreal Pablo        018817329      35,813.00
+  4   12 Villalobos Carmona Pedro        602760195      54,363.00
+  4   13 Guzman Arroyo David             205080953      67,831.00
+  4   14 Castro Siles Salvador           800830544     113,889.00
+  4   15 Paniagua Lopez Roger            604410306      69,880.00
+  4   16 Guido Hidalgo Bayron            603270460          38.00
+  4   17 Hidalgo Perez Brenda            601500817      47,891.00
+  4   19 Picado Arias Jairol Antonio     702270672      57,589.00
+  4   20 Portuguez Pe¤a Jose Pablo       604010197      47,901.00
+  4   21 Chaves Alvarado Randal          602550593      41,440.00
+  4   22 Avila Perez Roberto             602370608      75,802.00
+  4   23 Soto Aguilar Cristofer Alexis   604170056      65,870.00
+  4   24 Navarro Godinez Gelberth Esteb  114060008      90,316.00
+  4   25 Hernandez Blanco Maycol         604140494      92,677.00
+  4   26 Gonzalez Rodriguez Bienvenido   601370296      53,077.00
+  4   27 Valle Cerdas Alberto            604020071      84,166.00
+  4   28 Meza Sandi Christian            603330112      63,158.00
+  4   29 Badilla Rivera David            603250983      43,193.00
+  4   31 Cespedes Espinoza Joseph        702210449      46,956.00
+  4   32 Aleman Victor Jorge Alberto     108950054     112,310.00
+  4   33 Garcia Cordero Dehily           603170342     117,435.00
+  4   34 Monge Corrales Luis Andres      603800704      41,926.00
+  4   35 Mendez Guzman Roy Antonio       701730212      44,822.00
+  4   36 Garita Zu¤iga Jose Luis         603280801    Cesan.
+  4   43 Muir Garcia Harry Alan          105480349      98,203.00
+  4   45 Montenegro Espinoza Hector      155820244      51,271.00
+  4   46 Acosta Pena Leonel              602270672      39,282.00
+  4   47 Herrera Osorio Josue Emmanuel   115430416           0.00
+ -----------------------------------------------------------------------------
+                                                      2005,707.00
+
+
+  5    8 Otarola Porras Wilberth         602430317      90,871.00
+  5   11 Viales Lopez Carlos Alberto     108000926      62,152.00
+ -----------------------------------------------------------------------------
+                                                       153,023.00
+
+
+  6    1 Martinez Del Pino Alfonso       800870440     135,475.00
+ Pag :   4                        Martec S.A.
+                         Listado Banco de Costa Rica             05/11/2014
+ -----------------------------------------------------------------------------
+   # Empl.                  Nombre         Cedula           Monto
+ -----------------------------------------------------------------------------
+  6    2 Campos Duran Ronald Amancio     602700357      36,436.00
+  6    3 Mejias Vargas Virginia          601460254      66,253.00
+  6    4 Aguilar Valverde Maria De Los   603720404      15,058.00
+  6    5 Maykall Badilla Roberto         602380281      86,557.00
+  6   29 Fernandez Benambur Carlos       601560455      78,851.00
+  6   33 Rojas Berrocal Wenceslao        601400939      34,832.00
+ -----------------------------------------------------------------------------
+                                                       453,462.00
+
+
+  7    1 Chang Valerin Luis Antonio      500880699      59,397.00
+  7    2 Nu¤ez Morum Eugenio             501630021      73,053.00
+  7    3 Fernandez Elizondo Jose Joaqui  112010347      95,374.00
+  7    4 Elizondo Sanchez Marcos Andres  113430850      69,316.00
+  7    5 Jimenez Jimenez Toribio         501930296      90,268.00
+  7    6 Zu¤iga Badilla Jose             114170433      65,387.00
+  7    7 Hernandez Rojas Antonio Alejan  603430097      57,367.00
+  7    8 Barrantes Mena Jose Alberto     110170300      78,132.00
+  7    9 Machado Batista Mario Jose      106740092      33,107.00
+  7   11 Elizondo Moreno Martin          107280165      69,424.00
+  7   12 Cespedes Chaves Alvaro          203100915      98,311.00
+ -----------------------------------------------------------------------------
+                                                       789,136.00
+
+
+  8    2 Zu¤iga Leon Martina             602040307      65,260.00
+  8    5 Picado Ramirez Eduardo De Jesu  603450440      48,159.00
+  8    7 Sanchez Amador Maria Alejandra  112020509      42,855.00
+  8    8 Calderon Piedra Johovana        603130688      17,222.00
+  8   10 Contreras Rivas Karen De Los A  503830102      40,879.00
+  8   11 Acu;a Artavia Daniel            111270736      58,453.00
+  8   12 Brenes Salazar Esteban          702310196      36,429.00
+  8   13 Flores Quiros Jonathan Gerardo  604070414      30,034.00
+  8   14 Porras Diaz Xavier Argeries     603980795      43,113.00
+  8   15 Calderon Zu¤iga Stefennie Paol  603930292      32,699.00
+  8   16 Santana Baltodano Flor          7-107-298      49,072.00
+  8   18 Fernandez Chaves Alberto        107550116      31,902.00
+  8   21 Garcia Navarro Angie Tatiana    206950832         867.00
+  8   23 Ramirez Villarevia Carlos Maur  113890336      73,114.00
+  8   24 Espinoza Corella Guillermo      602770123      30,940.00
+  8   34 Perez Perez Francisco Antonio   17809641       14,567.00
+  8   37 Hidalgo Chavarria Johnny        603690020      52,558.00
+  8   43 Matarrita Fuentes Maria De Los  503020679      38,020.00
+  8   50 Carranza Montoya Luis Diego     604070885      48,905.00
+  8   58 Mora Sanchez Liliana            603340541      42,004.00
+  8   59 Castillo Jimmy Francisco        718957771      40,808.00
+  8   62 Valverde Molina Kenneth         113230838      34,120.00
+  8   72 Perez Fargas Luis Manuel        017856578     100,419.00
+  8   79 Pizarro Zu;iga Warren           602580038      46,921.00
+  8   80 Navarro Zu;iga Diana            209720588    Cesan.
+  8   95 Lopez Gomez Geraldo Andre       604210573    Incap.
+  8   97 Jimenez Mendez Jeikol           604200388      61,464.00
+  8   98 Quiros Marin Allison Melissa    604350138           0.00
+ -----------------------------------------------------------------------------
+                                                      1080,784.00
+
+
+  9    1 Cerdas Chavarria Carlos Albert  109740689      59,107.00
+  9    2 Porras Aleman Marvin Gustavo    603500402      64,312.00
+ Pag :   5                        Martec S.A.
+                         Listado Banco de Costa Rica             05/11/2014
+ -----------------------------------------------------------------------------
+   # Empl.                  Nombre         Cedula           Monto
+ -----------------------------------------------------------------------------
+  9    3 Torres Ramirez Juan Carlos      303070212     100,858.00
+  9    4 Perez Zu¤iga Daniel Moises      603960552      29,508.00
+  9    6 Viquez Delgado Gerardo          106820005      99,377.00
+  9    7 Segura Chaves Jeffry            112910986      86,782.00
+  9    9 Rivera Lara Victor              112870048     141,385.00
+  9   10 Fallas Chacon Felix             601430242      91,791.00
+  9   11 Zarate Bola¤os Raul             205510831      28,336.00
+ -----------------------------------------------------------------------------
+                                                       701,456.00
+
+
+ 10    1 Monge Godinez Ronny Jesus       115080002      34,280.00
+ 10    2 Morales Thompson Andrea Valeri  247020609      37,321.00
+ -----------------------------------------------------------------------------
+                                                        71,601.00
+
+
+ 11    1 Leon Godinez Alexis             601620100      50,934.00
+ 11    4 Amador Amador Hydee             602260009      50,934.00
+ -----------------------------------------------------------------------------
+                                                       101,868.00
+
+
+ 12    1 Zeledon Obando Jose Ferna       601690924    Incap.
+ 12    6 Castillo Rivera Danny Andrei    604070704      38,294.00
+ 12    7 Duarte Arana Alfonso            601450658      23,897.00
+ 12    8 Quiros Zu¤iga Adriana           603160652      65,457.00
+ 12   11 Campos Quiros Luis Eduardo      303700496      18,279.00
+ 12   17 Ruth Rojas Rodforth Adrian      602900294      78,038.00
+ 12   18 Ramirez Jimenez Wagner          603600366      64,032.00
+ 12   19 Arce Valverde Eljaer            603600234      51,351.00
+ 12   20 Morales Chaves Alvaro           602230912      76,768.00
+ -----------------------------------------------------------------------------
+                                                       416,116.00
+
+
+ 13    1 Valverde Carrera Jairo Esteban  603900859      62,880.00
+ -----------------------------------------------------------------------------
+                                                        62,880.00
+
+
+ 14    1 Cortes Cordero Virgilio         503370153      83,164.00
+ 14    2 Vasquez Salas Diego             503600492      76,402.00
+ 14    3 Mendoza Vargas Francisco        018582742      80,349.00
+ 14    4 Calderon Cordero Margarita Mar  503590318      33,537.00
+ 14    5 Cortes Paniagua Luis Gabriel    112900691      62,076.00
+ 14    6 Cortes Garcia Greivin           502910596      70,251.00
+ 14    7 Molina Cortes Luis Andres       503450809      69,527.00
+ 14    8 Calderon Cordero Melvin         503440997      67,074.00
+ 14    9 Villagra Calderon Francisco Ja  503810988      85,687.00
+ 14   11 Rojas Villafuerte Oscar         503960932      50,934.00
+ 14   12 Cortes Carrillo Juan Diego      503430021      50,934.00
+ 14   14 Ruiz Lopez Farid                502860074      97,463.00
+ 14   15 Quiros Solis Adriana            503300381      58,579.00
+ 14   16 Ramirez Calderon Dixon Jose     504000776      57,301.00
+ 14   17 Rodriguez Ugalde Mainor Gerard  206810265      79,289.00
+ 14   22 Molina Villafuerte Jeckson      503780199      81,747.00
+ 14   23 Sanchez Rojas Luis Miguel       503480683      49,709.00
+ 14   24 Lopez Solano Jose Noriel        503930248      63,137.00
+ Pag :   6                        Martec S.A.
+                         Listado Banco de Costa Rica             05/11/2014
+ -----------------------------------------------------------------------------
+   # Empl.                  Nombre         Cedula           Monto
+ -----------------------------------------------------------------------------
+ 14   25 Ruiz Rojas Cristofer            504050528      61,766.00
+ 14   26 Trejos Salazar Carlos           5-240-453      61,280.00
+ 14   27 Castrillo Lopez Lisimaco        504240993      42,445.00
+ 14   28 Lopez Jimenez Jorge Luis        603610719      69,626.00
+ 14   30 Buchalla Alvin Yole             288010197     213,663.00
+ 14   31 Bernardo Cortes Cordero         503850239      58,893.00
+ 14   32 Santamaria Cortes Brayan        503920564      55,709.00
+ 14   34 Bienvenido Cordero Cortes       503190980      64,122.00
+ 14   35 Cruz Mora Luis Eduardo          503060577      57,301.00
+ 14   38 Perez Salas Julio Cesar         503180669      73,749.00
+ 14   40 Montes Cardenas Jessica         761118301      47,034.00
+ 14   41 Mayorga Mora Victor Alfonso     503990232      57,301.00
+ -----------------------------------------------------------------------------
+                                                      2080,049.00
+
+
+ 15    2 Illarramendi Huete Mario Alber  112270211     207,982.00
+ 15    3 Porter Vasquez Emiliano         900710596     120,349.00
+ 15    4 Ibarra Mora Esteban             601320809      88,559.00
+ 15    6 Gomez Mena Ismael               602920273     101,528.00
+ 15    7 Vasquez Grima Walter            602550889     118,079.00
+ 15    8 Rodriguez Espinoza Maria Teres  603490380      16,978.00
+ 15    9 Arias Morales Berny             603730079      94,441.00
+ 15   12 Sanchez Jimenez Wilman          602650849      77,511.00
+ 15   13 Perez Chavarria Mario De Jesus  017913453      74,279.00
+ -----------------------------------------------------------------------------
+                                                       899,706.00
+
+
+ 16    1 Lara Guardia Carlos             105110994     623,496.00
+ 16    2 Sardenberg Bruno                173101802     667,082.00
+ 16    5 Acu¤a Wing Ching Martin         700900313     275,650.00
+ -----------------------------------------------------------------------------
+                                                      1566,228.00
+
+
+ 17    1 Duran Parra Marino              601840607     142,525.00
+ 17    2 Madrigal Lopez Gerson Gabriel   603640515     114,083.00
+ 17    3 Barboza Valderrama Errol        603740489     114,790.00
+ 17    4 Vasquez Rivas Luis Alberto      603130866     115,369.00
+ 17    5 Chacon Rojas Nelson Enrique     603250095     122,586.00
+ 17    6 Rodriguez Salas David           601390696     190,460.00
+ 17    7 Chaves Zeledon Luis Jose        603510283      58,881.00
+ 17    9 Orozco Padilla Warlyn           603700683     135,386.00
+ 17   10 Mora Flores Jimmy Jose          603820400      23,869.00
+ 17   11 Larra¤aga Bolumburu Alexander   174010265     449,651.00
+ 17   12 Herrera Gutierrez Mario Albert  206150322      77,275.00
+ 17   13 Mora Castillo Diego Armando     603900437     149,117.00
+ 17   14 Cerdas Arguedas Hufman          603780445     107,175.00
+ 17   15 Sancho Calderon Yizhak Danilo   604310103     116,279.00
+ 17   16 Recio Arriaga Hubert            603190111      27,249.00
+ 17   17 Perez Perez Luis Mario          113990009     122,651.00
+ 17   18 Montero Chacon Herald           115490655     143,260.00
+ 17   19 Carmona Sandi Cesar             604070317      99,808.00
+ 17   20 Sibaja Guadamuz Francisco       603830539    Incap.
+ 17   22 Reyes Sanchez Christian         603730307     109,025.00
+ 17   23 Perez Rueda Raul                602560649      65,383.00
+ 17   24 Elian Sanchez Arias             205790843     114,267.00
+ 17   25 Mata Duran Victor Hugo          602440373     114,559.00
+ Pag :   7                        Martec S.A.
+                         Listado Banco de Costa Rica             05/11/2014
+ -----------------------------------------------------------------------------
+   # Empl.                  Nombre         Cedula           Monto
+ -----------------------------------------------------------------------------
+ 17   26 Miranda Fernandez Jean Antony   603800017     129,122.00
+ 17   27 Soligo Thiago                   180103404     381,934.00
+ 17   28 Marchena Villeda Melvin         602730929     109,437.00
+ 17   29 Ordo;ez Vasquez Eduardo         603500425      99,699.00
+ 17   30 Vindas Mora Olger               110150670      99,208.00
+ 17   33 Obando Martinez Stanley         502800866      74,810.00
+ 17   34 Garita Villalobos Raimon        603510467      68,443.00
+ -----------------------------------------------------------------------------
+                                                      3676,301.00
+
+
+ 18    1 Leal Padilla Cristian           602860627      37,546.00
+ -----------------------------------------------------------------------------
+                                                        37,546.00
+
+
+ 19    1 Araya Ulloa Eduardo             115060025      84,885.00
+ 19    2 Arguedas Villalobos Ronald      401620535      73,240.00
+ -----------------------------------------------------------------------------
+                                                       158,125.00
+
+
+                    TOTALES =======>                  23766,766.00

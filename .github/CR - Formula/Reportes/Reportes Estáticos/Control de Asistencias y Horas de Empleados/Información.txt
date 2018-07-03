@@ -1,0 +1,47 @@
+Codigo: ControlAsistenciasHorasEmpleados
+Nombre: Control de Asistencias y Horas de Empleados
+Descripción: Reporte que muestra las asistencias que realizó un empleado en los días de la planilla y las horas que le genra el sistema
+
+Parametros
+- Compañía (No visible)
+- Tipo planilla
+- Planilla
+- Empleado
+- Uusario (No visiblie)
+
+Campos
+- Compañía
+- Tipo Planilla
+- Fecha de inicio de planilla
+- Fecha de fin de planilla
+- Departamento
+- Código de empleado
+- Nombre de empleado
+- Para cada uno de los días de la planilla
+	- Encabezado
+		- Fecha de planilla
+		- Día
+		- Jornada
+	- Columnas
+		- Entrada
+		- Salida
+		- Almuerzo Inicio
+		- Almuerzo Fin
+		- Abreviatura de horas extras
+		- Número de horas
+	- Totales
+		- Total de horas
+
+Totales
+	- Total de horas por empleado
+	- Total por tipo de hora extra
+	- Total por unidad administrativa
+	
+Agrupamiento
+- Unidad administrativa
+
+Ordenamiento
+- Orden de unidad administrativa
+- Codigo de empleado
+
+
